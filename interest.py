@@ -1,0 +1,6 @@
+princ_amnt = float(input('enter principle amount deposited into account'))
+interest_rate = float(input('enter interest rate'))
+num_com = float(input('enter number of times per year that interest is compunded'))
+years = float(input('enter number of years it will be left to interest'))
+interest_earned = princ_amnt *( 1 + interest_rate / num_com) ** (num_com * years)
+print('after 10 years the account balance will be', interest_earned)
